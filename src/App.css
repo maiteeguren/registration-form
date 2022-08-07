@@ -1,38 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #BEC0FF; */
+  background-image: linear-gradient(to right bottom, #8183ff, #978efe, #a999fe, #b9a5fe, #c8b2fe, #ccb7fe, #cfbdfe, #d3c2fe, #cec1fe, #c9c1ff, #c3c0ff, #bec0ff);
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.form-container {
+  background-color: #FFF;
+  width: 40vw;
+  margin: 0 auto;
+  border-radius: 40px;
+  padding: 80px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+}
+
+.header {
+  color: #8183FF;
+  margin-bottom: 40px;
+}
+
+.submit-button,
+.input-label {
+  font-weight: 500;
+}
+
+.input-field {
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.submit-button,
+.input-field {
+  display: block;
+  margin: 10px 0 25px 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+
+.submit-button {
+  background: #8183FF;
+  border: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.field-group {
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.width-50 {
+  width: 48%;
+}
+
+.checkbox-group,
+.field-group {
+  display: flex;
+}
+
+.checkbox-group {
+  margin: 10px 0 25px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
 }

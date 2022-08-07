@@ -1,0 +1,22 @@
+.App {
+  background-image: linear-gradient(to right bottom, #8183ff, #978efe, #a999fe, #b9a5fe, #c8b2fe, #ccb7fe, #cfbdfe, #d3c2fe, #cec1fe, #c9c1ff, #c3c0ff, #bec0ff);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #FFF;
+  width: 40vw;
+  margin: 0 auto;
+  border-radius: 40px;
+  padding: 80px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+}
+
+.header {
+  color: #8183FF;
+  margin-bottom: 40px;
+}

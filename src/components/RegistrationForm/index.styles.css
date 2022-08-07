@@ -1,0 +1,46 @@
+.submit-button,
+.input-label {
+  font-weight: 500;
+}
+
+.input-field {
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.submit-button,
+.input-field {
+  display: block;
+  margin: 10px 0 25px 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+
+.submit-button {
+  background: #8183FF;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.field-group {
+  justify-content: space-between;
+}
+
+.width-50 {
+  width: 48%;
+}
+
+.checkbox-group,
+.field-group {
+  display: flex;
+}
+
+.checkbox-group {
+  margin: 10px 0 25px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
